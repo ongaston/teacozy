@@ -35,12 +35,50 @@ header .nav-links a {
 main {
     position: relative;
     top: 69px;
+    background: black;
 }
 
 
 /*Banner section*/
 
 #banner {
-    background-image: url('/resources/images/img-mission-background.jpg');
+    position: relative;
+    background-image: url("/Users/oliviagaston/Dropbox/websites/teacozy/teacozy/resources/images/img-mission-background.jpg");
+    width: 90%;
+    height: 700px;
+    z-index: 5;
+    background-size: cover;
+    background-position: center;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stripe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
     width: 100%;
+    background-color: black;
+    opacity: 90%;
+}
+
+.stripe h2 {
+    font-family: Helvetica;
+    color: seashell;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.stripe h4 {
+    font-family: Helvetica;
+    color: seashell;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 25px;
+    padding-top: 20px;
 }
