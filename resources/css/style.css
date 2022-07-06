@@ -7,6 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    opacity: 0.9;
+    border-bottom: 1px solid seashell;
 }
 
 .nav-links ul {
@@ -21,7 +23,8 @@
 }
 
 header .nav-links a {
-    color: white;
+    color: seashell;;
     font-family: Helvetica;
     text-decoration: underline;
+    font-size: 22px;
 }
