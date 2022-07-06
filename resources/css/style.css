@@ -1,0 +1,27 @@
+#heading {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.logo img {
+    height: 50px;
+    padding: 0 10px;
+}
+
+header .nav-links a {
+    color: white;
+    font-family: Helvetica;
+    text-decoration: underline;
+}
