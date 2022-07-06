@@ -1,3 +1,6 @@
+/*html {
+    background-color: black;
+}*/
 #heading {
     position: fixed;
     width: 100%;
@@ -27,4 +30,17 @@ header .nav-links a {
     font-family: Helvetica;
     text-decoration: underline;
     font-size: 22px;
+}
+
+main {
+    position: relative;
+    top: 69px;
+}
+
+
+/*Banner section*/
+
+#banner {
+    background-image: url('/resources/images/img-mission-background.jpg');
+    width: 100%;
 }
