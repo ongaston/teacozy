@@ -86,6 +86,12 @@ main {
 
 /*Tea of the month*/
 
+#month-tea {
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+
 .title {
     font-family: Helvetica;
     color: seashell;
