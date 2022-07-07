@@ -1,6 +1,6 @@
-/*html {
+html {
     background-color: black;
-}*/
+}
 #heading {
     position: fixed;
     width: 100%;
@@ -12,13 +12,6 @@
     justify-content: space-between;
     opacity: 0.9;
     border-bottom: 1px solid seashell;
-}
-
-.subtitle {
-    font-family: Helvetica;
-    color: seashell;
-    font-weight: bold;
-    font-size: 25px;
 }
 
 .nav-links ul {
@@ -89,4 +82,65 @@ main {
     font-size: 25px;
     padding-bottom: 25px;
     padding-top: 20px;
+}
+
+/*Tea of the month*/
+
+.title {
+    font-family: Helvetica;
+    color: seashell;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.subtitle {
+    font-family: Helvetica;
+    color: seashell;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#tea-header {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#sub-tea {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 23px;
+}
+
+#tea-month {
+    margin-top: 30px;
+}
+
+.tea-sub {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tea-containers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+}
+
+.tea {
+    display: inline-flex;
+    flex-direction: column;
+    height: 245px;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea-pic {
+    height: 200px;
 }
