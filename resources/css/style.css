@@ -14,13 +14,6 @@
     border-bottom: 1px solid seashell;
 }
 
-.subtitle {
-    font-family: Helvetica;
-    color: seashell;
-    font-weight: bold;
-    font-size: 25px;
-}
-
 .nav-links ul {
     display: flex;
     width: 500px;
@@ -89,4 +82,36 @@ main {
     font-size: 25px;
     padding-bottom: 25px;
     padding-top: 20px;
+}
+
+/*Tea of the month*/
+
+.subtitle {
+    font-family: Helvetica;
+    color: seashell;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.tea-sub {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tea-containers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: auto;
+}
+
+.tea {
+    display: inline-flex;
+    flex-direction: column;
+    height: 245px;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
 }
