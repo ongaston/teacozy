@@ -163,12 +163,13 @@ main {
 #locations {
     background-image: url('/Users/oliviagaston/Dropbox/websites/teacozy/teacozy/resources/images/img-locations-background.jpg');
     display: flex;
-    height: 600px;
+    height: 500px;
     width: 90%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .loc-container {
@@ -193,4 +194,33 @@ main {
     font-family: Helvetica;
     font-size: 20px;
     color: seashell;
+}
+
+/*footer*/
+
+#footer {
+    height: 320px;
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+
+#footer-title {
+    margin: 20px 0;
+}
+
+.contact {
+    font-family: Helvetica;
+    color: seashell;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+#copyright {
+    font-family: Helvetica;
+    color: seashell;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 20px;
 }
