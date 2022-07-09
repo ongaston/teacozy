@@ -20,6 +20,10 @@ html {
     justify-content: space-around;
 }
 
+header .nav-links a:hover {
+    color: #452373;
+}
+
 .logo img {
     height: 50px;
     padding: 0 10px;
